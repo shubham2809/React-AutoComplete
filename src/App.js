@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import fetchJsonp from "fetch-jsonp";
 import Suggestions from "./Suggestions";
-import keyIndex from "react-key-index";
 import "./App.css";
 
 const API_URL =
@@ -23,7 +22,6 @@ class Search extends Component {
         let suggestions = [];
         fetchedData.forEach(element => {
           suggestions.push(element[0]);
-          suggestions = keyIndex(suggestions, 1);
         });
         this.setState({
           results: [...suggestions]
