@@ -1,0 +1,9 @@
+h1, p {
+  font-family: Lato;
+}
+
+/* Add application styles & imports to this file! */
+/* Source : https://uigradients.com/#BetweenNightandDay */
+body {
+  background: linear-gradient(to right, #2c3e50, #3498db);
+}

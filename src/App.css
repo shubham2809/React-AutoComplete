@@ -1,0 +1,16 @@
+.wrap{
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+}
+
+.searchbar {
+  width: 30%;
+  border: 2px solid #008CBA;
+  padding: 8px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
+  color: rgb(0, 15, 8);
+}
